@@ -1,0 +1,318 @@
+{
+  "uid" : "321cff30461a6826",
+  "name" : "Негативная регистрация с коротким паролем",
+  "fullName" : "tests.RegisterTest.registerNewUserWithShortPasswordFail",
+  "historyId" : "cddc44bff456791c1effe7466a7641ae",
+  "time" : {
+    "start" : 1732558462163,
+    "stop" : 1732558465092,
+    "duration" : 2929
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Подготовка тестового пользователя через API",
+      "time" : {
+        "start" : 1732558462917,
+        "stop" : 1732558463662,
+        "duration" : 745
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создание нового пользователя",
+        "time" : {
+          "start" : 1732558462917,
+          "stop" : 1732558463251,
+          "duration" : 334
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(email=user1732558462917855@example.com, password=(Nh^%&c1@)q3D, name=User8806)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Вход под пользователем",
+        "time" : {
+          "start" : 1732558463252,
+          "stop" : 1732558463656,
+          "duration" : 404
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(email=user1732558462917855@example.com, password=(Nh^%&c1@)q3D, name=User8806)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Подготовка тестовых данных и открытие страницы регистрации",
+      "time" : {
+        "start" : 1732558463662,
+        "stop" : 1732558464137,
+        "duration" : 475
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открытие страницы регистрации",
+        "time" : {
+          "start" : 1732558463663,
+          "stop" : 1732558464136,
+          "duration" : 473
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "d00277a8fd47fde8",
+        "name" : "Имя",
+        "source" : "d00277a8fd47fde8.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "987f79413b404c17",
+        "name" : "Email",
+        "source" : "987f79413b404c17.txt",
+        "type" : "text/plain",
+        "size" : 32
+      }, {
+        "uid" : "b4d22adcee9f2f1b",
+        "name" : "Пароль",
+        "source" : "b4d22adcee9f2f1b.txt",
+        "type" : "text/plain",
+        "size" : 14
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение формы регистрации",
+      "time" : {
+        "start" : 1732558464137,
+        "stop" : 1732558464369,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание загрузки страницы регистрации",
+        "time" : {
+          "start" : 1732558464137,
+          "stop" : 1732558464159,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание видимости элемента: By.xpath: .//button[text()='Зарегистрироваться']",
+          "time" : {
+            "start" : 1732558464137,
+            "stop" : 1732558464159,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: .//button[text()='Зарегистрироваться']"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Заполняем поле Имя",
+        "time" : {
+          "start" : 1732558464159,
+          "stop" : 1732558464233,
+          "duration" : 74
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userName",
+          "value" : "ShortUser"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Заполняем поле Email",
+        "time" : {
+          "start" : 1732558464233,
+          "stop" : 1732558464320,
+          "duration" : 87
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "shortPasswordUser1732558464137@example.com"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Заполняем поле Пароль",
+        "time" : {
+          "start" : 1732558464320,
+          "stop" : 1732558464369,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "123"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=shortPasswordUser1732558464137@example.com, password=123, name=ShortUser)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    }, {
+      "name" : "Нажимаем кнопку Зарегистрироваться",
+      "time" : {
+        "start" : 1732558464369,
+        "stop" : 1732558464410,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Получение сообщения об ошибке пароля",
+      "time" : {
+        "start" : 1732558464410,
+        "stop" : 1732558464425,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Удаление пользователя через API",
+      "time" : {
+        "start" : 1732558464425,
+        "stop" : 1732558464955,
+        "duration" : 530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NDRiZThlOWVkMjgwMDAxYjUxZThhZiIsImlhdCI6MTczMjU1ODQ3OCwiZXhwIjoxNzMyNTU5Njc4fQ.Nj62DyUh-RFusLhxEEwiv2OEgbI2Z6nMJYCg5Q_rOPA"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 14,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegisterTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registerNewUserWithShortPasswordFail"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RegisterTest"
+  }, {
+    "name" : "host",
+    "value" : "KEYN"
+  }, {
+    "name" : "thread",
+    "value" : "12648@KEYN.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "321cff30461a6826.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,252 @@
+{
+  "uid" : "698f67b6720a1ba6",
+  "name" : "Переход в раздел 'Начинки'",
+  "fullName" : "tests.MainPageTest.testNavigateToFillingsSection",
+  "historyId" : "ba063835c0bef67829dda6050bc00540",
+  "time" : {
+    "start" : 1732558435072,
+    "stop" : 1732558438549,
+    "duration" : 3477
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Подготовка тестового пользователя через API",
+      "time" : {
+        "start" : 1732558436032,
+        "stop" : 1732558436806,
+        "duration" : 774
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создание нового пользователя",
+        "time" : {
+          "start" : 1732558436032,
+          "stop" : 1732558436414,
+          "duration" : 382
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(email=user1732558436032455@example.com, password=SsQH5@8Ni, name=User8846)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Вход под пользователем",
+        "time" : {
+          "start" : 1732558436414,
+          "stop" : 1732558436799,
+          "duration" : 385
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(email=user1732558436032455@example.com, password=SsQH5@8Ni, name=User8846)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие главной страницы",
+      "time" : {
+        "start" : 1732558436806,
+        "stop" : 1732558436944,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Клик на раздел 'Начинки'",
+      "time" : {
+        "start" : 1732558436944,
+        "stop" : 1732558437892,
+        "duration" : 948
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание видимости элемента: By.xpath: //span[text()='Начинки']/parent::div",
+        "time" : {
+          "start" : 1732558436944,
+          "stop" : 1732558437831,
+          "duration" : 887
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //span[text()='Начинки']/parent::div"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Клик по элементу: By.xpath: //span[text()='Начинки']/parent::div",
+        "time" : {
+          "start" : 1732558437831,
+          "stop" : 1732558437892,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание видимости элемента: By.xpath: //span[text()='Начинки']/parent::div",
+          "time" : {
+            "start" : 1732558437831,
+            "stop" : 1732558437843,
+            "duration" : 12
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: //span[text()='Начинки']/parent::div"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //span[text()='Начинки']/parent::div"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка отображения заголовка 'Начинки'",
+      "time" : {
+        "start" : 1732558437892,
+        "stop" : 1732558437909,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверка видимости элемента: By.xpath: //h2[text()='Начинки']",
+        "time" : {
+          "start" : 1732558437892,
+          "stop" : 1732558437909,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //h2[text()='Начинки']"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя через API",
+      "time" : {
+        "start" : 1732558437909,
+        "stop" : 1732558438448,
+        "duration" : 539
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NDRiZTczOWVkMjgwMDAxYjUxZTg4ZiIsImlhdCI6MTczMjU1ODQ1MSwiZXhwIjoxNzMyNTU5NjUxfQ.3hFV7Q4AbzWlYLvzprKoPx2v0Ba9cZonHKIeX69RhQE"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.MainPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testNavigateToFillingsSection"
+  }, {
+    "name" : "suite",
+    "value" : "tests.MainPageTest"
+  }, {
+    "name" : "host",
+    "value" : "KEYN"
+  }, {
+    "name" : "thread",
+    "value" : "12648@KEYN.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "698f67b6720a1ba6.json",
+  "parameterValues" : [ ]
+}
