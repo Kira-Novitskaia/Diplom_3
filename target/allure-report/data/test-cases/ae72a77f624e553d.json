@@ -1,0 +1,375 @@
+{
+  "uid" : "ae72a77f624e553d",
+  "name" : "Переход из личного кабинета на главную страницу по клику на логотип Stellar Burgers",
+  "fullName" : "tests.ProfileTest.clickLogoGetMainPage",
+  "historyId" : "e9cba1d3f6b56846ec86fda744e527e8",
+  "time" : {
+    "start" : 1732558454786,
+    "stop" : 1732558458799,
+    "duration" : 4013
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Подготовка тестового пользователя через API",
+      "time" : {
+        "start" : 1732558455486,
+        "stop" : 1732558456223,
+        "duration" : 737
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создание нового пользователя",
+        "time" : {
+          "start" : 1732558455486,
+          "stop" : 1732558455875,
+          "duration" : 389
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(email=user1732558455486103@example.com, password=*PAwpam%D9J, name=User959)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Вход под пользователем",
+        "time" : {
+          "start" : 1732558455875,
+          "stop" : 1732558456217,
+          "duration" : 342
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(email=user1732558455486103@example.com, password=*PAwpam%D9J, name=User959)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Клик на кнопку «Личный кабинет» и переход на страницу авторизации",
+      "time" : {
+        "start" : 1732558457268,
+        "stop" : 1732558457359,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик по элементу: By.xpath: //p[contains(text(),'Личный Кабинет')]",
+        "time" : {
+          "start" : 1732558457268,
+          "stop" : 1732558457358,
+          "duration" : 90
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание видимости элемента: By.xpath: //p[contains(text(),'Личный Кабинет')]",
+          "time" : {
+            "start" : 1732558457268,
+            "stop" : 1732558457291,
+            "duration" : 23
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: //p[contains(text(),'Личный Кабинет')]"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //p[contains(text(),'Личный Кабинет')]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Вход через форму логина и переход на страницу профиля",
+      "time" : {
+        "start" : 1732558457359,
+        "stop" : 1732558457590,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполняем поле Email",
+        "time" : {
+          "start" : 1732558457359,
+          "stop" : 1732558457461,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "user1732558455486103@example.com"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Заполняем поле Пароль",
+        "time" : {
+          "start" : 1732558457461,
+          "stop" : 1732558457533,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "*PAwpam%D9J"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Кликаем на кнопку Войти",
+        "time" : {
+          "start" : 1732558457533,
+          "stop" : 1732558457589,
+          "duration" : 56
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Клик по элементу: By.xpath: .//button[text()='Войти']",
+          "time" : {
+            "start" : 1732558457533,
+            "stop" : 1732558457589,
+            "duration" : 56
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ожидание видимости элемента: By.xpath: .//button[text()='Войти']",
+            "time" : {
+              "start" : 1732558457533,
+              "stop" : 1732558457545,
+              "duration" : 12
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "By.xpath: .//button[text()='Войти']"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: .//button[text()='Войти']"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=user1732558455486103@example.com, password=*PAwpam%D9J, name=User959)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    }, {
+      "name" : "Клик по логотипу сайта",
+      "time" : {
+        "start" : 1732558457590,
+        "stop" : 1732558458087,
+        "duration" : 497
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Клик по элементу: By.className: AppHeader_header__logo__2D0X2",
+        "time" : {
+          "start" : 1732558457590,
+          "stop" : 1732558458087,
+          "duration" : 497
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание видимости элемента: By.className: AppHeader_header__logo__2D0X2",
+          "time" : {
+            "start" : 1732558457590,
+            "stop" : 1732558457605,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.className: AppHeader_header__logo__2D0X2"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.className: AppHeader_header__logo__2D0X2"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание отображения заголовка конструктора",
+      "time" : {
+        "start" : 1732558458091,
+        "stop" : 1732558458113,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверка видимости элемента: By.xpath: .//h1[text()='Соберите бургер']",
+        "time" : {
+          "start" : 1732558458091,
+          "stop" : 1732558458113,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: .//h1[text()='Соберите бургер']"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя через API",
+      "time" : {
+        "start" : 1732558458113,
+        "stop" : 1732558458631,
+        "duration" : 518
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NDRiZTg2OWVkMjgwMDAxYjUxZThhNSIsImlhdCI6MTczMjU1ODQ3MSwiZXhwIjoxNzMyNTU5NjcxfQ.minmrBJrB4ct2GTgTCF3ZROZexUFGp4r_M9FnCudIHo"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 18,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ProfileTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickLogoGetMainPage"
+  }, {
+    "name" : "suite",
+    "value" : "tests.ProfileTest"
+  }, {
+    "name" : "host",
+    "value" : "KEYN"
+  }, {
+    "name" : "thread",
+    "value" : "12648@KEYN.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae72a77f624e553d.json",
+  "parameterValues" : [ ]
+}

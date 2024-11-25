@@ -1,0 +1,183 @@
+{
+  "uid" : "617b5eb8d1de1e2b",
+  "name" : "Переход в раздел 'Булки'",
+  "fullName" : "tests.MainPageTest.testBunsSectionIsDisplayedByDefault",
+  "historyId" : "80a93349ad3e18017e2076d1cb1fd7a8",
+  "time" : {
+    "start" : 1732558441556,
+    "stop" : 1732558445003,
+    "duration" : 3447
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Подготовка тестового пользователя через API",
+      "time" : {
+        "start" : 1732558442391,
+        "stop" : 1732558443215,
+        "duration" : 824
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создание нового пользователя",
+        "time" : {
+          "start" : 1732558442391,
+          "stop" : 1732558442765,
+          "duration" : 374
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(email=user1732558442391289@example.com, password=l^6ZOnlgWAKC4g, name=User736)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Вход под пользователем",
+        "time" : {
+          "start" : 1732558442766,
+          "stop" : 1732558443209,
+          "duration" : 443
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(email=user1732558442391289@example.com, password=l^6ZOnlgWAKC4g, name=User736)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие главной страницы",
+      "time" : {
+        "start" : 1732558443215,
+        "stop" : 1732558444328,
+        "duration" : 1113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка отображения заголовка 'Булки'",
+      "time" : {
+        "start" : 1732558444328,
+        "stop" : 1732558444348,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверка видимости элемента: By.xpath: //h2[text()='Булки']",
+        "time" : {
+          "start" : 1732558444328,
+          "stop" : 1732558444348,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //h2[text()='Булки']"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя через API",
+      "time" : {
+        "start" : 1732558444348,
+        "stop" : 1732558444855,
+        "duration" : 507
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NDRiZTc5OWVkMjgwMDAxYjUxZTg5NyIsImlhdCI6MTczMjU1ODQ1OCwiZXhwIjoxNzMyNTU5NjU4fQ.3tdPW1WzXR3bWRnFN_5YnORcmOpWdRpyBuRq91zU8uc"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.MainPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testBunsSectionIsDisplayedByDefault"
+  }, {
+    "name" : "suite",
+    "value" : "tests.MainPageTest"
+  }, {
+    "name" : "host",
+    "value" : "KEYN"
+  }, {
+    "name" : "thread",
+    "value" : "12648@KEYN.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "617b5eb8d1de1e2b.json",
+  "parameterValues" : [ ]
+}
