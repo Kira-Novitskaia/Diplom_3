@@ -2,9 +2,8 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-### Игнорируем папку .allure###
 .allure
-
+!allure-report/
 ### IntelliJ IDEA ###
 .idea/*
 *.iws
