@@ -1,23 +1,12 @@
-### Maven ###
-/target/
-!target/site/allure-results/
-
-### Gradle ###
-/build/
-.gradle/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-.allure/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+### Игнорируем папку .allure###
+.allure
 
 ### IntelliJ IDEA ###
-.idea/
-/shelf/
-.idea/workspace.xml
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea/*
 *.iws
 *.iml
 *.ipr
@@ -27,7 +16,7 @@
 .classpath
 .factorypath
 .project
-.settings/
+.settings
 .springBeans
 .sts4-cache
 
@@ -37,38 +26,12 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
 
 ### Mac OS ###
 .DS_Store
-Thumbs.db
-
-### Java ###
-*.class
-*.tmp
-*.bak
-*.swp
-
-### Логи и временные файлы ###
-*.log
-*.out
-*.coverage
-# Исключаем временные файлы JaCoCo
-jacoco.exec
-# Включаем каталог с HTML-отчетами JaCoCo
-!**/jacoco-report/
-
-### Локальные конфигурации ###
-*.properties
-*.yml
-*.yaml
-*.env
-*.local
-
-### Docker ###
-docker-compose.override.yml
-
-### Файлы ОС ###
-*.~*
